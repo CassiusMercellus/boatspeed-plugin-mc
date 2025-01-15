@@ -1,0 +1,10 @@
+# Configuration for BoatSpeedPlugin
+
+# Speed multiplier for boats in water
+speed-multiplier: 1.0
+
+# Boost multiplier when a player is inside the boat
+player-boost-factor: 1.1
+
+# Minimum velocity to avoid boats becoming immobile
+min-velocity: 1.5

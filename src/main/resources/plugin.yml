@@ -1,0 +1,14 @@
+name: BoatSpeedPlugin
+version: 1.2
+main: com.boatspeed.core.BoatSpeedPlugin
+api-version: 1.21
+description: A plugin to control boat speeds.
+commands:
+  reloadboattravel:
+    description: Reload the configuration for BoatSpeedPlugin.
+    usage: /reloadboattravel
+    permission: boattravel.reload
+permissions:
+  boattravel.reload:
+    description: Permission to reload BoatSpeedPlugin configuration.
+    default: op
